@@ -14,7 +14,7 @@ from flask_mail import Mail, Message
 app = Flask(__name__)
 app.config['SECRET_KEY']='@####'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://elkggyvczhzmcm:c20ae6bb713727cec4215b1d1ce0b8399eeb7b1afd84f8b5ebef226d2486db8e@ec2-54-83-3-101.compute-1.amazonaws.com:5432/d6r26oqgqcdgpo'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 
 app.config.update(
     DEBUG=True,
