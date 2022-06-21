@@ -16,7 +16,7 @@ idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-numpy==1.13.1
+numpy==1.22.0
 pandas==0.20.3
 pdfkit==0.6.1
 pipenv==2018.6.25
